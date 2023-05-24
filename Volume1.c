@@ -27,5 +27,5 @@ main()
       result.inch = result.inch - 12.0;
       ++result.feet;
    }
-   printf("\nSum of distances = %d\'-%.1f\"", result.feet, result.inch);
+   printf("\nSum of distances = %d\'.%.1f\"", result.feet, result.inch);
 }
